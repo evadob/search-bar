@@ -1,0 +1,42 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+input {
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.25rem;
+  margin-top: 1rem;
+}
+
+.card {
+  border: 1px solid #111;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 0.5rem;
+}
+
+.card > .card-header {
+  margin-bottom: 0.25rem;
+}
+
+.card > .card-body {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.hide {
+  display: none;
+}
